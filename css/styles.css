@@ -1,0 +1,277 @@
+:root {
+  --color: #2196f3;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.link {
+  text-decoration: none;
+}
+.web,
+.nav:focus,
+.nav:hover,
+.link-contact:focus,
+.link-contact:hover,
+.white:focus,
+.white:hover {
+  color: var(--color);
+}
+.link-contact,
+.white {
+  font-style: normal;
+}
+.ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.benefits-h {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #212121;
+}
+.benefits-p {
+  color: #757575;
+}
+.nav {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+.tel {
+  margin-right: 50px;
+}
+
+.link-contact {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.hero {
+  padding-top: 17%;
+  padding-right: 29%;
+  padding-left: 29%;
+  padding-bottom: 17%;
+  text-align: center;
+  color: #ffffff;
+  background: #2f303a;
+}
+.header {
+  border-bottom: Solid #ececec;
+}
+.header-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.head {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  flex-grow: 2;
+  color: black;
+}
+.logo {
+  margin-right: 45px;
+  flex-grow: 0;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+}
+.navbar {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  width: 281px;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.contacts {
+  width: 281px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  flex-grow: 1;
+}
+.hero-h {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button-hero {
+  min-width: 216px;
+  min-height: 50px;
+  padding: 10px, 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  border: none;
+  background: var(--color);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.benefits,
+.products,
+.menu,
+.services,
+.team {
+  margin-top: 94px;
+}
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: #f5f4fa;
+}
+.benefits {
+  margin-top: 94px;
+}
+.benefits-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.benefits-il {
+  width: 270px;
+}
+
+.products-h {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+.products-ul,
+.team-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.products-h,
+.team-h {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.team-ul {
+  flex-wrap: wrap;
+}
+.team-li {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
+}
+.portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.specialization {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #757575;
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.white {
+  color: #ffffff;
+}
+.logo-foot {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.menu-button {
+  padding: 6px 25px;
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: #212121;
+  border: none;
+}
+.menu-button:hover,
+.menu-button:focus {
+  cursor: pointer;
+  font-family: inherit;
+  color: #ffffff;
+  background-color: var(--color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.services-li {
+  text-align: start;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.portfolio,
+.padding {
+  padding-left: 24px;
+  padding-right: auto;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.foot-contacts {
+  margin-top: 20px;
+  height: 81px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
