@@ -9,10 +9,14 @@ body {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.container-hero {
+  width: 696px;
+  margin: 0 auto;
 }
 .link {
   text-decoration: none;
@@ -64,10 +68,8 @@ body {
 }
 
 .hero {
-  padding-top: 17%;
-  padding-right: 29%;
-  padding-left: 29%;
-  padding-bottom: 17%;
+  padding-bottom: 200px;
+  padding-top: 200px;
   text-align: center;
   color: #ffffff;
   background: #2f303a;
@@ -127,7 +129,9 @@ body {
 .button-hero {
   min-width: 216px;
   min-height: 50px;
-  padding: 10px, 32px;
+  padding: 10px 32px;
+  display: block;
+  margin: 0 auto;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
@@ -137,25 +141,18 @@ body {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.benefits,
-.products,
-.portfolio-section,
-.team {
-  margin-top: 94px;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-.portfolio-section {
-  margin-bottom: 94px;
-}
-.services {
-  margin-top: 34px;
+. .services {
+  margin-top: 50px;
 }
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+  text-align: center;
   background: #f5f4fa;
-}
-.benefits {
-  margin-top: 94px;
 }
 .benefits-ul {
   display: flex;
@@ -166,7 +163,10 @@ body {
 .benefits-il {
   width: 270px;
 }
-
+.products {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
 .products-h {
   font-weight: 700;
   font-size: 36px;
@@ -184,6 +184,20 @@ body {
 .team-h {
   margin-top: 0;
   margin-bottom: 50px;
+}
+.team-h {
+  font-size: 36px;
+  line-height: 1.6667;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.team-li-h {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .team-ul {
   flex-wrap: wrap;
@@ -255,7 +269,7 @@ body {
 .services {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 30px;
 }
 .services-li {
   text-align: start;
